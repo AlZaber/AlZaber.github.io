@@ -1,0 +1,147 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#showcase {
+	background: url(../img/back_24.png) no-repeat top center, url(../img/footer.png) no-repeat bottom center;
+	display: table;
+	background-size: contain;
+	height: 50%;
+	position: relative;
+	width: 100%;
+}
+
+#box {
+	margin-bottom: 30px;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.185);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+	margin-bottom: 2%;
+	padding-bottom: 50px;
+	width: 75%;
+}
+
+#main-header img {
+	width: 100%;
+	height: 100%;
+}
+
+.profile {
+	display: block;
+	width: 100% !important;
+	margin-top: -45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.uiu {
+	display: block;
+	width: 70% !important;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+#social{
+	margin-top: 10px;
+}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.062);
+	margin-right: 50px;
+	margin-left: 50px;
+  }
+
+.name{
+	color: #36365c;
+}
+.role{
+	color: #adadad;
+	font-size: 23px;
+}
+
+.cse{
+	font-size: 22px;
+	color: #36365c;
+	margin-top:20px;
+}
+
+.uni{
+	font-size: 22px;
+	color: #36365c;
+	margin-top:-10px;
+	margin-bottom:20px;
+}
+
+.quote{
+	margin-top: 2%;
+}
+
+.table{
+	margin: 10%;
+	margin-top: 3%;
+}
+
+/* https://codepen.io/Volorf/pen/qopzaQ */
+.btn,
+.btn2 {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 50px;
+	background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff);
+	background-size: 600%;
+	-webkit-animation: anime 16s linear infinite;
+	animation: anime 16s linear infinite;
+}
+
+.btn a {
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+.btn2 {
+	margin-top: -20px;
+	z-index: -10 !important;
+	-webkit-filter: blur(20px);
+	filter: blur(20);
+	opacity: 0.8;
+	height: 25px;
+}
+
+.btn {
+	margin-top: 10px;
+	z-index: 10 !important;
+}
+
+@-webkit-keyframes anime {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes anime {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
